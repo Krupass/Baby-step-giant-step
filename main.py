@@ -23,9 +23,9 @@ def bsgs(a, b , m):
 
 
 if __name__ == '__main__':
-    a = int(input("Zadej A: "))
-    b = int(input("Zadej B: "))
-    mod = int(input("Zadej modulo: "))
+    a = int(input("Input A: "))
+    b = int(input("Input  B: "))
+    mod = int(input("Input modulo: "))
     result = bsgs(a, b , mod)
     print("\nBrutforced X: "  + str(result))
 
